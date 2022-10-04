@@ -1,3 +1,5 @@
+Day 2 Lecture
+
 - Terminal / Command Line Interface (CLI) / Shell
     - They mean different things but get used interchangeably.
     - The terminal is the program that runs a shell
