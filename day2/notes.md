@@ -1,6 +1,6 @@
-Day 2 Lecture
+# Day 2 Lecture
 
-- Terminal / Command Line Interface (CLI) / Shell
+## Terminal / Command Line Interface (CLI) / Shell
     - They mean different things but get used interchangeably.
     - The terminal is the program that runs a shell
     - The shell is a programming environment
@@ -12,7 +12,7 @@ Day 2 Lecture
             - Now default on Mac OS X
 
 
-- Intro to JS!
+## Intro to JS!
 
 - Core technology of the web
     - Created by Brendan Eich at Netscape
