@@ -12,5 +12,5 @@ Day 2 Lecture
             - Now default on Mac OS X
 
 
-- Intro to JS
+- Intro to JS!
 
