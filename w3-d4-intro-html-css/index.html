@@ -1,0 +1,49 @@
+<!--An html element that is special and it does not need a closing tag-->
+<!DOCTYPE html>
+
+<!-- our `html` element has an opening tag, a closing tag, and content living inside it. -->
+<!-- our `html element has the `lang` attribute-->
+<!-- you can add any attribute name you want to an element, the browser will just ignore -->
+<html lang="en" my_special_attribute_i_just_made_up="hello!!">
+
+<head>
+    <!--meta element does not need a closing tag-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Page!!</title>
+
+    <link href="./styles.css" rel="stylesheet">
+    </link>
+</head>
+
+<!--Everything you want the user to see in the browser goes here-->
+
+<body>
+    <div class="global_styles">
+        <!--a heading 1 tag with content "Hello world!"-->
+        <h1 id="title">Hello world!</h1>
+        <p style="color: blue">Its not sunny</p>
+        <p class="make_everything_violet">Another thing</p>
+        <!--div is a container to help organize other elements-->
+        <div class="add_border_and_padding make_everything_violet">
+            <h2>This is in a div!</h2>
+            <p>Me too!<span style="color:green">I am Green</span></p>
+            <ul>
+                <li>Thing one</li>
+                <li>Thing two</li>
+            </ul>
+            <button onclick="handleButtonClick()">
+                Click me! I do nothing
+            </button>
+        </div>
+        <img src="https://t4.ftcdn.net/jpg/03/03/62/45/240_F_303624505_u0bFT1Rnoj8CMUSs8wMCwoKlnWlh5Jiq.jpg">
+        <!-- this cat pic doesnt exist but if it did in an `images/` directory this is how we'd display it-->
+        <img src="./images/my_cat_pic.jpg">
+    </div>
+</body>
+<!--We put the JS script tag here so that the JS is loaded after the page first loads -->
+<!--Telling the browser to request this file from the server. src is short for "source"-->
+<script src="./index.js"></script>
+<script src="./js_code_here/foo.js"></script>
+
+</html>

@@ -1,0 +1,27 @@
+- What is HTML?
+    - HyperText Markup Language
+        - Hypertext: Text that links to other text (with hyperlinks)
+        - Markup: HTML is an example of a *Markup Language* 
+            - Imperative programming: You give the computer instructions on how to do it.
+            - Declarative: You give the computer the goal of what is to be done.
+    - What does HTML do?
+        - Separates content from presentation
+    - HTML is NOT ...
+        - An imperative programming language like Javascript or Python.
+
+
+- What is CSS?
+    - Cascading Style Sheets
+        - Style Sheet: A fancy term for a file that has information about how text should be formatted and presented.
+            - Font
+            - Bold / italic
+            - Padding
+            - Borders
+            - Rotation
+            - Layout relative to other elements
+    - Cascading
+        - Multiple rules can apply to the same HTML element
+        - One CSS rule can sort of inherit behavior from another; they're meant cascade/interact.
+        - There is a priority or "weight" so that some CSS rules will override others because they are considered more important. 
+    - Specificity
+        - When you have two conflicting CSS rules, the one whose "selector" (the part that determines which element the rule gets applied to) is more specific takes precedence.
